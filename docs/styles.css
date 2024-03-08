@@ -1,5 +1,33 @@
 /* css styles */
 
 body {
-    font-family: Times, sans-serif;
+    font-family: 'Patua One', sans-serif;
+    line-height: 1.5;
 }
+
+}
+
+/* styles.css */
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  color: #164285 !important;
+  background-color: transparent !important;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+/* styles.css */
+
+/* Style for the navbar */
+.navbar {
+  background-color: #ccd3d7; 
+  padding: 10px; /* Adjust padding for the navbar */
+  margin: 0; /* Remove any default margins */
+}
+
+

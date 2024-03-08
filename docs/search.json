@@ -4,28 +4,28 @@
     "href": "index.html",
     "title": "Overview",
     "section": "",
-    "text": "My name is Yolanda Liu Xingyan, a Year Two Communications and New Media student studying at the National University of Singapore."
+    "text": "This website is designed for the NM2207 course project about data visualization.  It is intended solely for educational purposes, without any profit motive."
   },
   {
     "objectID": "index.html#about-the-author",
     "href": "index.html#about-the-author",
     "title": "Overview",
-    "section": "",
-    "text": "My name is Yolanda Liu Xingyan, a Year Two Communications and New Media student studying at the National University of Singapore."
+    "section": "About the Author",
+    "text": "About the Author\nMy name is Yolanda Liu Xingyan, a Year 2 Communications and New Media student studying at the National University of Singapore."
   },
   {
     "objectID": "index.html#purpose-of-the-website",
     "href": "index.html#purpose-of-the-website",
     "title": "Overview",
     "section": "Purpose of the Website",
-    "text": "Purpose of the Website\nThe purpose of this website is to provide resources, tutorials, and examples to help you harness the full potential of Quarto for your document creation needs. Whether you are a researcher, educator, student, or professional, I hope you find valuable information here to enhance your workflow and productivity."
+    "text": "Purpose of the Website\nThis website is designed for the NM2207 course project about data visualization. It is intended solely for educational purposes, without any profit motive."
   },
   {
     "objectID": "index.html#contact-information",
     "href": "index.html#contact-information",
     "title": "Overview",
     "section": "Contact Information",
-    "text": "Contact Information\nIf you have any questions, feedback, or suggestions for topics you would like to see covered on this website, please feel free to contact me at &lt;span style=“text-decoration: underline;”&gt;xingyanliu10@u.nus.edu&lt;/span&gt;."
+    "text": "Contact Information\nIf you have any questions, feedback, or suggestions for topics you would like to see covered on this website, please feel free to contact me at xingyanliu10@u.nus.edu."
   },
   {
     "objectID": "about.html",
@@ -33,5 +33,33 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#dataset-focused-on",
+    "href": "index.html#dataset-focused-on",
+    "title": "Overview",
+    "section": "Dataset Focused on",
+    "text": "Dataset Focused on\nThe data source I have curated is the Drug Consumption dataset provided by University of California, Irvine UCI Dataset. It documents the consumption habits of 1885 respondents across 18 legal or illegal drugs such as alcohol, amphetamines, amyl nitrite, benzodiazepine, cannabis, chocolate, cocaine, caffeine, crack, ecstasy, heroin, ketamine, legal highs, LSD, methadone, mushrooms, nicotine, volatile substance abuse, and a fictitious drug named Semeron.\n\n\n\n\nFehrman, Elaine, Egan, Vincent, and Mirkes, Evgeny. (2016). Drug Consumption (Quantified). UCI Machine Learning Repository. https://doi.org/10.24432/C5TC7S."
+  },
+  {
+    "objectID": "index.html#dataset-used",
+    "href": "index.html#dataset-used",
+    "title": "Overview",
+    "section": "Dataset Used",
+    "text": "Dataset Used\nThe data source I have curated is the Drug Consumption dataset provided by University of California, Irvine UCI Dataset. It documents the consumption habits of 1885 respondents across 18 legal or illegal drugs such as alcohol, amphetamines, amyl nitrite, benzodiazepine, cannabis, chocolate, cocaine, caffeine, crack, ecstasy, heroin, ketamine, legal highs, LSD, methadone, mushrooms, nicotine, volatile substance abuse, and a fictitious drug named Semeron.\n\n\n\n\nFehrman, Elaine, Egan, Vincent, and Mirkes, Evgeny. (2016). Drug Consumption (Quantified). UCI Machine Learning Repository. https://doi.org/10.24432/C5TC7S."
+  },
+  {
+    "objectID": "index.html#dataset-source",
+    "href": "index.html#dataset-source",
+    "title": "Overview",
+    "section": "Dataset Source",
+    "text": "Dataset Source\nThe data source I have curated is the Drug Consumption dataset provided by University of California, Irvine (See UCI Dataset). It documents the consumption habits of 1885 respondents across 18 legal or illegal drugs such as alcohol, amphetamines, amyl nitrite, benzodiazepine, cannabis, chocolate, cocaine, caffeine, crack, ecstasy, heroin, ketamine, legal highs, LSD, methadone, mushrooms, nicotine, volatile substance abuse, and a fictitious drug named Semeron.\n\n\n\n\nFehrman, Elaine, Egan, Vincent, and Mirkes, Evgeny. (2016). Drug Consumption (Quantified). UCI Machine Learning Repository. https://doi.org/10.24432/C5TC7S."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "NM2207 Project: Data Visualization of Drug Consumption💊",
+    "section": "",
+    "text": "This website is designed for the NM2207 course project about data visualization. It is intended solely for educational purposes, without any profit motive.\n\n\nMy name is Yolanda Liu Xingyan, a Year 2 Communications and New Media student studying at the National University of Singapore.\n\n\n\nThe data source I have curated is the Drug Consumption dataset provided by University of California, Irvine (See UCI Dataset). It documents the consumption habits of 1885 respondents across 18 legal or illegal drugs such as alcohol, amphetamines, amyl nitrite, benzodiazepine, cannabis, chocolate, cocaine, caffeine, crack, ecstasy, heroin, ketamine, legal highs, LSD, methadone, mushrooms, nicotine, volatile substance abuse, and a fictitious drug named Semeron.\n\n\n\n\nFehrman, Elaine, Egan, Vincent, and Mirkes, Evgeny. (2016). Drug Consumption (Quantified). UCI Machine Learning Repository. https://doi.org/10.24432/C5TC7S."
   }
 ]

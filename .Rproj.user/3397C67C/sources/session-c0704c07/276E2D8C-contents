@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "Yolanda699.github.io"
+  title: "<span style='color: #164285; font-size: 24px;'>NM2207 Project: Data Visualization of Drug Consumption💊</span>"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Overview
       - about.qmd
-
+      
 format:
   html:
     theme: cosmo

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <!-- Include any necessary meta tags, stylesheets, or scripts here -->
+</head>
+<body>
+    <div class="site-content">
+        <!-- Your main content here -->
+        {{content}}
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

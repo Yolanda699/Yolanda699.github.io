@@ -1,0 +1,14 @@
+{
+  "hash": "e6169afe54d7d5636bd54ecb1075f717",
+  "result": {
+    "markdown": "---\ntitle: \"Overview\"\n---\n\n\n## About the Author\n\nMy name is **Yolanda Liu Xingyan**, a Year Two Communications and New Media student studying at the National University of Singapore.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](profile.JPG){width=250px height=250px}\n:::\n:::\n\n\n\n## Purpose of the Website\n\nThis website is for \n\n## Contact Information\n\nIf you have any questions, feedback, or suggestions for topics you would like to see covered on this website, please feel free to contact me at **<u><span style=\"color:blue;\">xingyanliu10@u.nus.edu</span></u>**.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
