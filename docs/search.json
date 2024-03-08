@@ -11,7 +11,7 @@
     "href": "index.html#about-the-author",
     "title": "Overview",
     "section": "About the Author",
-    "text": "About the Author\nMy name is Yolanda Liu Xingyan, a Year 2 Communications and New Media student studying at the National University of Singapore."
+    "text": "About the Author\nMy name is Yolanda Liu Xingyan, a Year 2 Communications and New Media student studying at the National University of Singapore. My career objective is to leverage digital tools to craft impactful marketing campaigns. My journey with digital tools begins with this course."
   },
   {
     "objectID": "index.html#purpose-of-the-website",
@@ -61,5 +61,12 @@
     "title": "NM2207 Project: Data Visualization of Drug Consumption💊",
     "section": "",
     "text": "This website is designed for the NM2207 course project about data visualization. It is intended solely for educational purposes, without any profit motive.\n\n\nMy name is Yolanda Liu Xingyan, a Year 2 Communications and New Media student studying at the National University of Singapore.\n\n\n\nThe data source I have curated is the Drug Consumption dataset provided by University of California, Irvine (See UCI Dataset). It documents the consumption habits of 1885 respondents across 18 legal or illegal drugs such as alcohol, amphetamines, amyl nitrite, benzodiazepine, cannabis, chocolate, cocaine, caffeine, crack, ecstasy, heroin, ketamine, legal highs, LSD, methadone, mushrooms, nicotine, volatile substance abuse, and a fictitious drug named Semeron.\n\n\n\n\nFehrman, Elaine, Egan, Vincent, and Mirkes, Evgeny. (2016). Drug Consumption (Quantified). UCI Machine Learning Repository. https://doi.org/10.24432/C5TC7S."
+  },
+  {
+    "objectID": "index.html#why-website",
+    "href": "index.html#why-website",
+    "title": "Overview",
+    "section": "Why Website",
+    "text": "Why Website\nWebsite serves as an accessible platform for disseminating information to a broad audience, aligning with the expansive reach of the “Say No to Drugs” goal in this project."
   }
 ]
