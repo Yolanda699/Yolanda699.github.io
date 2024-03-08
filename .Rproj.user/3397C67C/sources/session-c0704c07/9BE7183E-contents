@@ -1,5 +1,0 @@
-/* Target the website title section and set the background color */
-.site-title {
-    background-color: #cd9b9b; /* Change to the color of your choice */
-    padding: 10px 0; /* Adjust padding as needed */
-}
