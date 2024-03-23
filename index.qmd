@@ -4,11 +4,13 @@ title: "<span style='font-size: 30px;'>Overview</span>"
 
 [This website is designed for the NM2207 course project about data visualization. <br> It is intended solely for educational purposes, without any profit motive.]{style="font-size: 12pt; color: gray;"}
 
+
 ```{=html}
 <div style="width: 100%; height: auto;">
     <img src="nm2207 banner.png" alt="NM2207 Banner" style="width: 100%; height: auto;">
 </div>
 ```
+
 ## About the Author
 
 My name is **Yolanda Liu Xingyan**, a Year 2 Communications and New Media student studying at the National University of Singapore. My career objective is to leverage digital tools to craft impactful marketing campaigns. My journey with digital tools begins with this course.
@@ -36,6 +38,7 @@ The data source I have curated is the **Drug Consumption** dataset provided by U
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://yolanda699.shinyapps.io/app0/"> </iframe>
 ```
+
 ## Why Website
 
 Website serves as an accessible platform for disseminating information to a broad audience, aligning with the expansive reach of the "Say No to Drugs" goal in this project.

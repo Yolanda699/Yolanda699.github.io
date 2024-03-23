@@ -5,6 +5,11 @@ body {
     line-height: 1.5;
 }
 
+/* Style for the navbar */
+.navbar {
+  background-color: #ccd3d7; 
+  padding: 10px; /* Adjust padding for the navbar */
+  margin: 0; /* Remove any default margins */
 }
 
 /* styles.css */
@@ -20,14 +25,4 @@ body {
 body {
     background-color: #f7f7f7;
 }
-
-/* styles.css */
-
-/* Style for the navbar */
-.navbar {
-  background-color: #ccd3d7; 
-  padding: 10px; /* Adjust padding for the navbar */
-  margin: 0; /* Remove any default margins */
-}
-
 
