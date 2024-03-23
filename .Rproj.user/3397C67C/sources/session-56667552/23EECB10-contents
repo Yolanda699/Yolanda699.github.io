@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "<span style= 'font-size: 24px;'> 💊 Drug Consumption and Prevention</span>"
+  title: "<span style= 'font-size: 24px;'> 💊 Drug Consumption and Prevention </span>"
   navbar:
     left:
       - href: index.qmd
