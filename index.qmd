@@ -31,6 +31,11 @@ The data source I have curated is the **Drug Consumption** dataset provided by U
 </figure>
 :::
 
+<br> *Explore the Dataset's Demographic Distribution*
+
+```{=html}
+<iframe height="400" width="100%" frameborder="no" src="https://yolanda699.shinyapps.io/app0/"> </iframe>
+```
 ## Why Website
 
 Website serves as an accessible platform for disseminating information to a broad audience, aligning with the expansive reach of the "Say No to Drugs" goal in this project.
@@ -38,8 +43,3 @@ Website serves as an accessible platform for disseminating information to a broa
 ## Contact Information
 
 If you have any questions, feedback, or suggestions for topics you would like to see covered on this website, please feel free to contact me at [xingyanliu10\@u.nus.edu](xingyanliu10@u.nus.edu).
-
-```{=html}
-<iframe height="400" width="100%" frameborder="no" src="https://yolanda699.shinyapps.io/sample_app_nm2207/"> </iframe>
-```
-

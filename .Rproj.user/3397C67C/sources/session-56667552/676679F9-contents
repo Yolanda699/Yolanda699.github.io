@@ -1,0 +1,5 @@
+/* styles.css */
+
+body {
+  background-color: ##f7f7f7; /* Change this to your desired background color */
+}

@@ -15,7 +15,7 @@ ui <- fluidPage(
 # Define server logic required to draw stacked bar charts
 server <- function(input, output) {
   # Load your dataset here
-  drug_data <- read.csv("/Users/yolandaliu/Desktop/NUS/NUS Y2S2/NM2207/NM2207 Project/Yolanda699.github.io/personal_app/Drug_Consumption.csv")
+  drug_data <- read.csv("/Users/yolandaliu/Desktop/NUS/NUS Y2S2/NM2207/NM2207 Project/Yolanda699.github.io/app1/Drug_Consumption.csv")
   
   output$drugPlot <- renderPlot({
     drug <- switch(input$drug,
@@ -40,7 +40,7 @@ server <- function(input, output) {
             beside = TRUE)
     
     # Add legend manually at the top right of the plot
-    legend("topcenter", legend = c("Female", "Male"), fill = c("darkorchid", "dodgerblue3"), bty = "n", cex = 1.2)
+    legend("top", legend = c("Female", "Male"), fill = c("darkorchid", "dodgerblue3"), bty = "n", cex = 1.2)
   })
 }
 

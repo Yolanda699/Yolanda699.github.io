@@ -53,7 +53,7 @@
     "href": "index.html#dataset-source",
     "title": "Overview",
     "section": "Dataset Source",
-    "text": "Dataset Source\nThe data source I have curated is the Drug Consumption dataset provided by University of California, Irvine (See UCI Dataset). It documents the consumption habits of 1885 respondents across 18 legal or illegal drugs such as alcohol, amphetamines, amyl nitrite, benzodiazepine, cannabis, chocolate, cocaine, caffeine, crack, ecstasy, heroin, ketamine, legal highs, LSD, methadone, mushrooms, nicotine, volatile substance abuse, and a fictitious drug named Semeron.\n\n\n\n\nFehrman, Elaine, Egan, Vincent, and Mirkes, Evgeny. (2016). Drug Consumption (Quantified). UCI Machine Learning Repository. https://doi.org/10.24432/C5TC7S."
+    "text": "Dataset Source\nThe data source I have curated is the Drug Consumption dataset provided by University of California, Irvine (See UCI Dataset). It documents the consumption habits of 1885 respondents across 18 legal or illegal drugs such as alcohol, amphetamines, amyl nitrite, benzodiazepine, cannabis, chocolate, cocaine, caffeine, crack, ecstasy, heroin, ketamine, legal highs, LSD, methadone, mushrooms, nicotine, volatile substance abuse, and a fictitious drug named Semeron.\n\n\n\n\nFehrman, Elaine, Egan, Vincent, and Mirkes, Evgeny. (2016). Drug Consumption (Quantified). UCI Machine Learning Repository. https://doi.org/10.24432/C5TC7S.\n\n\n\n Explore the Dataset’s Demographic Distribution"
   },
   {
     "objectID": "index.html#overview",
