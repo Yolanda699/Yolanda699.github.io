@@ -4,5 +4,20 @@
   },
   "about.qmd": {
     "about.html": "f1f68c22"
+  },
+  "ResearchQuestion.qmd": {
+    "ResearchQuestion.html": "6827df2e"
+  },
+  "Univariate.qmd": {
+    "Univariate.html": "04c40ed3"
+  },
+  "Multivariate.qmd": {
+    "Multivariate.html": "baba7b7d"
+  },
+  "Personality.qmd": {
+    "Personality.html": "c4aff92a"
+  },
+  "Conclusion.qmd": {
+    "Conclusion.html": "e6cc3af0"
   }
 }

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Overview",
     "section": "",
-    "text": "This website is designed for the NM2207 course project about data visualization.  It is intended solely for educational purposes, without any profit motive."
+    "text": "This website is designed for the NM2207 course project about data visualization.  It is intended solely for educational purposes, without any profit motive.  For more, please use the drop-down menu!!!!"
   },
   {
     "objectID": "index.html#about-the-author",
@@ -79,15 +79,43 @@
   {
     "objectID": "about.html#research-question",
     "href": "about.html#research-question",
-    "title": "About",
+    "title": "Research Question",
     "section": "Research Question",
     "text": "Research Question\nHow do demographic characteristics, socioeconomic status, and psychological traits influence the frequency and type of drug consumption?"
   },
   {
     "objectID": "about.html#why-this-data-analysis-is-important",
     "href": "about.html#why-this-data-analysis-is-important",
-    "title": "About",
+    "title": "Research Question",
     "section": "Why This Data Analysis is Important?",
-    "text": "Why This Data Analysis is Important?\n\nAccording to Saah (2005), addiction is often triggered by the natural reward system’s conversion of “liking” into “wanting,” emphasizing the importance of addressing drug use issues due to their addictive nature, which can result in persistent challenges in quitting.\nStrickland & Smith (2014) outlined the influence of social context on individuals’ propensity towards drug use, thus analyzing personal experiences (e.g., demography, personality) and drug use can tailor intervention strategies to prevent or mitigate drug-related harm before addiction.\nAccording to Fox et al. (2013), drug abusers are estimated to commit millions of drug-motivated crimes annually; therefore, developing preemptive strategies to address drug use can enhance public safety and alleviate the societal burden associated with drug-related offenses."
+    "text": "Why This Data Analysis is Important?\n\nAccording to Saah (2005), addiction is often triggered by the natural reward system’s conversion of “liking” into “wanting,” emphasizing the importance of addressing drug use issues due to their addictive nature, which can result in persistent challenges in quitting.\nStrickland & Smith (2014) outlined the influence of social context on individuals’ propensity towards drug use, thus analyzing personal experiences (e.g., demography, personality) and drug use can tailor intervention strategies to prevent or mitigate drug-related harm before addiction.\nAccording to Fox et al. (2013), drug abusers are estimated to commit millions of drug-motivated crimes annually; therefore, developing preemptive strategies to address drug use can enhance public safety and alleviate the societal burden associated with drug-related offenses.\n\n\nReference List\n\nFox, T. P., Oliver, G., & Ellis, S. M. (2013). The destructive capacity of drug abuse: an overview exploring the harmful potential of drug abuse both to the individual and to society. ISRN Addiction, 2013, 450348. https://doi.org/10.1155/2013/450348\nSaah (2005) Saah T. (2005). The evolutionary origins and significance of drug addiction. Harm reduction journal, 2, 8. https://doi.org/10.1186/1477-7517-2-8\nStrickland & Smith (2014) Strickland, J. C., & Smith, M. A. (2014). The effects of social contact on drug use: behavioral mechanisms controlling drug intake. Experimental and clinical psychopharmacology, 22(1), 23–34. https://doi.org/10.1037/a0034669"
+  },
+  {
+    "objectID": "about.html#research-questio",
+    "href": "about.html#research-questio",
+    "title": "About",
+    "section": "Research Questio",
+    "text": "Research Questio\nHow do demographic characteristics, socioeconomic status, and psychological traits influence the frequency and type of drug consumption?"
+  },
+  {
+    "objectID": "ResearchQuestion.html#research-question",
+    "href": "ResearchQuestion.html#research-question",
+    "title": "Research Question",
+    "section": "Research Question",
+    "text": "Research Question\nHow do demographic characteristics and psychological traits (i.e., personality) influence the frequency and type of drug consumption?"
+  },
+  {
+    "objectID": "ResearchQuestion.html#why-this-data-analysis-is-important",
+    "href": "ResearchQuestion.html#why-this-data-analysis-is-important",
+    "title": "Research Question",
+    "section": "Why This Data Analysis is Important?",
+    "text": "Why This Data Analysis is Important?\n\nAccording to Saah (2005), addiction is often triggered by the natural reward system’s conversion of “liking” into “wanting,” emphasizing the importance of addressing drug use issues due to their addictive nature, which can result in persistent challenges in quitting.\nStrickland & Smith (2014) outlined the influence of social context on individuals’ propensity towards drug use, thus analyzing personal experiences (e.g., demography, personality) and drug use can tailor intervention strategies to prevent or mitigate drug-related harm before addiction.\nAccording to Fox et al. (2013), drug abusers are estimated to commit millions of drug-motivated crimes annually; therefore, developing preemptive strategies to address drug use can enhance public safety and alleviate the societal burden associated with drug-related offenses.\n\n\nReference List\n\nFox, T. P., Oliver, G., & Ellis, S. M. (2013). The destructive capacity of drug abuse: an overview exploring the harmful potential of drug abuse both to the individual and to society. ISRN Addiction, 2013, 450348. https://doi.org/10.1155/2013/450348\nSaah (2005) Saah T. (2005). The evolutionary origins and significance of drug addiction. Harm reduction journal, 2, 8. https://doi.org/10.1186/1477-7517-2-8\nStrickland & Smith (2014) Strickland, J. C., & Smith, M. A. (2014). The effects of social contact on drug use: behavioral mechanisms controlling drug intake. Experimental and clinical psychopharmacology, 22(1), 23–34. https://doi.org/10.1037/a0034669"
+  },
+  {
+    "objectID": "ResearchQuestion.html",
+    "href": "ResearchQuestion.html",
+    "title": "Research Question",
+    "section": "",
+    "text": "This section delineates the focal points of this data story, including the central question it aims to address and the significance of this inquiry within the context of my course project."
   }
 ]
