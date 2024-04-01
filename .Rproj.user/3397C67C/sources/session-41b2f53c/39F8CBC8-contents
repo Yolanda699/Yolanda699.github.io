@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "<span style= 'font-size: 24px;'> 💊 Drug Consumption and Prevention </span>"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+      - about.qmd
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
