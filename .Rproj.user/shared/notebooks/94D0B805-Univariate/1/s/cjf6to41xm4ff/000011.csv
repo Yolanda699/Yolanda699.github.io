@@ -1,0 +1,4 @@
+"0","drug <- read.csv(""Drug_Consumption_Quantified.csv"")"
+"0","drug <- subset(drug, Country != ""-0.28519"")"
+"0","drug_or <- read.csv(""Drug_Consumption.csv"")"
+"0","drug_or <- subset(drug_or, Country != ""Other"")"

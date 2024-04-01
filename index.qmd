@@ -2,7 +2,7 @@
 title: "<span style='font-size: 30px;'>Overview</span>"
 ---
 
-[This website is designed for the NM2207 course project about data visualization. <br> It is intended solely for educational purposes, without any profit motive. <br> ***For more, please use the drop-down menu!!!!***]{style="font-size: 12pt; color: gray;"}
+[This website is designed for the NM2207 course project about data visualization. <br> It is intended solely for educational purposes, without any profit motive. <br> ***For more details, please use the drop-down menu!!!!***]{style="font-size: 12pt; color: gray;"}
 
 ```{=html}
 <div style="width: 100%; height: auto;">

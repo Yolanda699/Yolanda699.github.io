@@ -1,0 +1,16 @@
+{
+  "hash": "0b266b2cdb71bdc233b82b73ab226a77",
+  "result": {
+    "markdown": "---\ntitle: \"<span style='font-size: 30px;'>Univariate Analysis</span><span style='font-size: 20px; color:gray;'> [Demographic Characteristics] </span>\"\n---\n\n\n[This univariate analysis page will feature an analysis of four key demographic factors: ***Age, Gender, Education Level, and Country***. The aim is to elucidate their relationship with drug consumption patterns.]{style=\"font-size: 12pt; color: gray;\"}\n\n\n::: {.cell}\n\n:::\n\n\n### Exploring Drug Consumption Patterns Across Different Age Groups\n\n#### Three **Legal** Drugs Across Six Analyzed Countries\n\n##### Alcohol\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](Univariate_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n##### Caffeine\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](Univariate_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\n##### Nicotine\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](Univariate_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n\n\n#### One **Legal** Drug Across Two Analyzed Countries, but **Illegal** Across Four Others\n\n##### Cannabis\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](Univariate_files/figure-html/unnamed-chunk-5-1.png){width=672}\n:::\n:::\n\n\n#### Two **Illegal** Drugs Across Six Analyzed Countries\n\n#### Cocaine\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](Univariate_files/figure-html/unnamed-chunk-6-1.png){width=672}\n:::\n:::\n\n\n#### Heroin\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](Univariate_files/figure-html/unnamed-chunk-7-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "Univariate_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

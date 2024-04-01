@@ -1,0 +1,21 @@
+"0","library(ggplot2)"
+"0","ggplot(drug, aes(x = age, y = alcohol)) +"
+"0","  geom_point() +"
+"0","  labs(x = ""Age"", y = ""Alcohol"", title = ""Scatter Plot of Age vs. Alcohol"")"
+"1","[1m[33mError[39m in `geom_point()`:[22m
+[38;5;232m[33m![38;5;232m Problem while computing aesthetics.
+[36mℹ[38;5;232m Error occurred in the 1st layer.[39m
+[1mCaused by error:[22m
+[33m![39m object 'age' not found
+Backtrace:
+[90m  1. [39m[1mbase[22m (local) `<fn>`(x)
+[90m  2. [39mggplot2:::print.ggplot(x)
+[90m  4. [39mggplot2:::ggplot_build.ggplot(x)
+[90m  5. [39mggplot2:::by_layer(...)
+[90m 12. [39mggplot2 (local) f(l = layers[[i]], d = data[[i]])
+[90m 13. [39ml$compute_aesthetics(d, plot)
+[90m 14. [39mggplot2 (local) compute_aesthetics(..., self = self)
+[90m 15. [39mggplot2:::scales_add_defaults(...)
+[90m 16. [39m[1mbase[22m::lapply(aesthetics[new_aesthetics], eval_tidy, data = data)
+[90m 17. [39m[1mrlang[22m (local) FUN(X[[i]], ...)
+"
