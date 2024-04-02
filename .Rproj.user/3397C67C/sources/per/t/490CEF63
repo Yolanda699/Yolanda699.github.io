@@ -1,14 +1,14 @@
 {
-    "id": "0BEB9B56",
-    "path": "~/Desktop/NUS/NUS Y2S2/NM2207/NM2207 Project/Yolanda699.github.io/Univariate.qmd",
-    "project_path": "Univariate.qmd",
+    "id": "490CEF63",
+    "path": "~/Desktop/NUS/NUS Y2S2/NM2207/NM2207 Project/Yolanda699.github.io/ResearchQuestion.qmd",
+    "project_path": "ResearchQuestion.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1982259590",
     "contents": "",
     "dirty": false,
-    "created": 1711989211321.0,
+    "created": 1711987024310.0,
     "source_on_save": false,
-    "relative_order": 10,
+    "relative_order": 7,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "3,37",
-        "scrollLine": "0",
-        "rmdVisualModeLocation": "2:718"
+        "rmdVisualModeLocation": "826:676",
+        "cursorPosition": "15,22",
+        "scrollLine": "5"
     },
     "folds": "",
-    "lastKnownWriteTime": 1712027309,
+    "lastKnownWriteTime": 1711990813,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1712027309924,
+    "last_content_update": 1711990813245,
     "read_only": false,
     "read_only_alternatives": []
 }
