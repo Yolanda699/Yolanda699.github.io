@@ -20,18 +20,41 @@ These three drugs (alcohol, cafeeine and nocotine) are legal in all 6 analyzed c
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
 
+# Define breaks and labels for age groups
 breaks <- c(-0.95197, -0.07854, 0.49788, 1.09449, 1.82213, 2.59171)
 labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
 
-ggplot(drug, aes(x = Age, y = Alcohol)) +
-  geom_violin() +
-  scale_x_continuous(breaks = breaks, labels = labels) +
-  labs(x = "Age", y = "Alcohol", title = "Distribution of Alcohol Consumption by Age")
+# Create a histogram faceted by each level of alcohol consumption
+ggplot(drug, aes(x = factor(Age, labels = labels), fill = factor(Age, labels = labels))) +
+  geom_bar(color = "black", position = "dodge") +
+  facet_wrap(~ Alcohol, nrow = 1) +
+  labs(title = "Age Distribution by Alcohol Consumption Level", x = NULL, y = "Frequency") +  # Removed x-axis label
+  theme_minimal() +
+  theme(axis.text.x = element_blank())  # Removed x-axis text
+
 ```
 
 ##### Gender
-```{r, eval=TRUE, echo=FALSE,  message = FALSE}
+```{r, eval=TRUE, echo=FALSE}
+library(ggplot2)
+library(dplyr)
 
+
+# Calculate counts of each gender in each level of alcohol consumption
+count_data <- drug_or %>%
+  group_by(Alcohol, Gender) %>%
+  summarise(count = n())
+
+# Define custom colors
+custom_colors <- c("M" = "#106898", "F" = "#615ea8")
+
+# Create a histogram comparing alcohol consumption levels between genders
+ggplot(count_data, aes(x = Alcohol, y = count, fill = Gender)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  geom_text(aes(label = count), position = position_dodge(width = 1), vjust = -0.5, size = 3) +
+  labs(title = "Distribution of Alcohol Consumption Levels by Gender", x = "Alcohol Consumption Levels (CL0-CL6)", y = "Count") +
+  scale_fill_manual(values = custom_colors) +
+  theme_minimal()
 ```
 
 ##### Education
