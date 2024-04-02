@@ -1,0 +1,31 @@
+"0","library(ggplot2)"
+"0","library(dplyr)"
+"0",""
+"0","count_data <- drug_or %>%"
+"0","  group_by(Caff, Gender) %>%"
+"0","  summarise(count = n())"
+"0",""
+"0","custom_colors <- c(""F"" = ""#aed0ee"", ""M"" = ""#a3bbdb"")"
+"0",""
+"0","ggplot(count_data, aes(x = Coke, y = count, fill = Gender)) +"
+"0","  geom_bar(stat = ""identity"", position = ""dodge"") +"
+"0","  geom_text(aes(label = count), position = position_dodge(width = 1), vjust = -0.5, size = 3) +"
+"0","  labs(title = ""Gender and Cocaine Consumption"", x = ""Cocaine Consumption Levels"", y = ""Count"") +"
+"0","  scale_fill_manual(values = custom_colors) +"
+"0","  theme_minimal()"
+"1","[1m[33mError[39m in `geom_bar()`:[22m
+[38;5;232m[33m![38;5;232m Problem while computing aesthetics.
+[36mℹ[38;5;232m Error occurred in the 1st layer.[39m
+[1mCaused by error:[22m
+[33m![39m object 'Coke' not found
+Backtrace:
+[90m  1. [39m[1mbase[22m (local) `<fn>`(x)
+[90m  2. [39mggplot2:::print.ggplot(x)
+[90m  4. [39mggplot2:::ggplot_build.ggplot(x)
+[90m  5. [39mggplot2:::by_layer(...)
+[90m 12. [39mggplot2 (local) f(l = layers[[i]], d = data[[i]])
+[90m 13. [39ml$compute_aesthetics(d, plot)
+[90m 14. [39mggplot2 (local) compute_aesthetics(..., self = self)
+[90m 15. [39m[1mbase[22m::lapply(aesthetics, eval_tidy, data = data, env = env)
+[90m 16. [39m[1mrlang[22m (local) FUN(X[[i]], ...)
+"

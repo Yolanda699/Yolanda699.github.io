@@ -1,0 +1,16 @@
+{
+  "hash": "694e5603499173199cd5629b7633ae9a",
+  "result": {
+    "markdown": "---\ntitle: \"<span style='font-size: 30px;'> Radar Chart Analysis </span> <span style='font-size: 20px; color:gray;'>[Psychological Traits] </span>\"\n---\n\n::: {.cell}\n\n:::\n\n\n## **Legal** Drugs\n\nThese three drugs (alcohol, cafeeine and nocotine) are legal in all 6 analyzed countries.\n\n### Alcohol\n\n#### AScore\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](Personality_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n#### CScore\n\n::: {.cell}\n::: {.cell-output-display}\n![](Personality_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\n#### EScore\n\n::: {.cell}\n::: {.cell-output-display}\n![](Personality_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n\n\n#### NScore\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](Personality_files/figure-html/unnamed-chunk-5-1.png){width=672}\n:::\n:::\n\n\n#### OScore\n\n::: {.cell}\n::: {.cell-output-display}\n![](Personality_files/figure-html/unnamed-chunk-6-1.png){width=672}\n:::\n:::\n\n\n### Caffeine\n\n#### AScore\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](Personality_files/figure-html/unnamed-chunk-7-1.png){width=672}\n:::\n:::\n\n\n#### CScore\n\n::: {.cell}\n::: {.cell-output-display}\n![](Personality_files/figure-html/unnamed-chunk-8-1.png){width=672}\n:::\n:::\n\n\n#### EScore\n\n::: {.cell}\n::: {.cell-output-display}\n![](Personality_files/figure-html/unnamed-chunk-9-1.png){width=672}\n:::\n:::\n\n\n#### NScore\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](Personality_files/figure-html/unnamed-chunk-10-1.png){width=672}\n:::\n:::\n\n\n#### OScore\n\n::: {.cell}\n::: {.cell-output-display}\n![](Personality_files/figure-html/unnamed-chunk-11-1.png){width=672}\n:::\n:::\n\n\n### Nicotine\n#### AScore\n#### CScore\n#### EScore\n#### SScore\n#### OScore\n\n## **Controversial** Drugs\n\nThis drug (cannabis) is legal in two analyzed countries (the United States and Canada) but illegal in four others.\n\n### Cannabis\n#### AScore\n#### CScore\n#### EScore\n#### SScore\n#### OScore\n\n## **Illegal** Drugs\n\nThese two drugs (Cocaine, Heroin) are illegal across all six analyzed countries.\n\n### Cocaine\n#### AScore\n#### CScore\n#### EScore\n#### SScore\n#### OScore\n\n### Heroin\n#### AScore\n#### CScore\n#### EScore\n#### SScore\n#### OScore",
+    "supporting": [
+      "Personality_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

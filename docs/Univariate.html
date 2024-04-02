@@ -135,9 +135,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#legal-drugs" id="toc-legal-drugs" class="nav-link active" data-scroll-target="#legal-drugs"><strong>Legal</strong> Drugs</a></li>
-  <li><a href="#controversial-drugs" id="toc-controversial-drugs" class="nav-link" data-scroll-target="#controversial-drugs"><strong>Controversial</strong> Drugs</a></li>
-  <li><a href="#illegal-drugs" id="toc-illegal-drugs" class="nav-link" data-scroll-target="#illegal-drugs"><strong>Illegal</strong> Drugs</a></li>
+  <li><a href="#legal-drugs" id="toc-legal-drugs" class="nav-link active" data-scroll-target="#legal-drugs"><strong>Legal</strong> Drugs</a>
+  <ul class="collapse">
+  <li><a href="#alcohol" id="toc-alcohol" class="nav-link" data-scroll-target="#alcohol">Alcohol</a></li>
+  <li><a href="#caffeine" id="toc-caffeine" class="nav-link" data-scroll-target="#caffeine">Caffeine</a></li>
+  <li><a href="#nicotine" id="toc-nicotine" class="nav-link" data-scroll-target="#nicotine">Nicotine</a></li>
+  </ul></li>
+  <li><a href="#controversial-drugs" id="toc-controversial-drugs" class="nav-link" data-scroll-target="#controversial-drugs"><strong>Controversial</strong> Drugs</a>
+  <ul class="collapse">
+  <li><a href="#cannabis" id="toc-cannabis" class="nav-link" data-scroll-target="#cannabis">Cannabis</a></li>
+  </ul></li>
+  <li><a href="#illegal-drugs" id="toc-illegal-drugs" class="nav-link" data-scroll-target="#illegal-drugs"><strong>Illegal</strong> Drugs</a>
+  <ul class="collapse">
+  <li><a href="#cocaine" id="toc-cocaine" class="nav-link" data-scroll-target="#cocaine">Cocaine</a></li>
+  <li><a href="#heroin" id="toc-heroin" class="nav-link" data-scroll-target="#heroin">Heroin</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -162,159 +174,226 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p><span style="background-color:#fdfd96;">How does each demographic characteristic affect the drug consumption patterns?</span></p>
-<p><span style="font-size: 12pt; color: gray;">This univariate analysis page will feature an analysis of four key demographic factors: <strong><em>Age, Gender, Education Level, and Country</em></strong>. The aim is to elucidate their relationship with drug consumption patterns.</span></p>
-<section id="legal-drugs" class="level3">
-<h3 class="anchored" data-anchor-id="legal-drugs"><strong>Legal</strong> Drugs</h3>
+<p><span style="font-size: 12pt; color: gray;">This univariate analysis page will feature an analysis of four key demographic factors: <strong><em>Age, Gender, Education Level, and Country</em></strong>. The aim is to elucidate their relationship with drug consumption patterns.<br><br> <strong>For reference:</strong> CL0 indicating ‘never used’, CL1 representing ‘used over a decade ago’, CL2 indicating ‘used in the last decade’, CL3 indicating ‘used in the last year’, CL4 representing ‘used in the last month’, CL5 indicating ‘used in the last week’, and CL6 representing ‘used in the last day’.</span></p>
+<section id="legal-drugs" class="level2">
+<h2 class="anchored" data-anchor-id="legal-drugs"><strong>Legal</strong> Drugs</h2>
 <p>These three drugs (alcohol, cafeeine and nocotine) are legal in all 6 analyzed countries.</p>
-<section id="alcohol" class="level4">
-<h4 class="anchored" data-anchor-id="alcohol">Alcohol</h4>
-<section id="age" class="level5">
-<h5 class="anchored" data-anchor-id="age">Age</h5>
+<section id="alcohol" class="level3">
+<h3 class="anchored" data-anchor-id="alcohol">Alcohol</h3>
+<section id="age" class="level4">
+<h4 class="anchored" data-anchor-id="age">Age</h4>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
-<section id="gender" class="level5">
-<h5 class="anchored" data-anchor-id="gender">Gender</h5>
+<section id="gender" class="level4">
+<h4 class="anchored" data-anchor-id="gender">Gender</h4>
 <div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'dplyr'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:stats':
-
-    filter, lag</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:base':
-
-    intersect, setdiff, setequal, union</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>`summarise()` has grouped output by 'Alcohol'. You can override using the
-`.groups` argument.</code></pre>
-</div>
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
-<section id="education" class="level5">
-<h5 class="anchored" data-anchor-id="education">Education</h5>
-</section>
-<section id="country" class="level5">
-<h5 class="anchored" data-anchor-id="country">Country</h5>
-</section>
-</section>
-<section id="caffeine" class="level4">
-<h4 class="anchored" data-anchor-id="caffeine">Caffeine</h4>
-<section id="age-1" class="level5">
-<h5 class="anchored" data-anchor-id="age-1">Age</h5>
+<section id="education" class="level4">
+<h4 class="anchored" data-anchor-id="education">Education</h4>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
-<section id="gender-1" class="level5">
-<h5 class="anchored" data-anchor-id="gender-1">Gender</h5>
-</section>
-<section id="education-1" class="level5">
-<h5 class="anchored" data-anchor-id="education-1">Education</h5>
-</section>
-<section id="country-1" class="level5">
-<h5 class="anchored" data-anchor-id="country-1">Country</h5>
-</section>
-</section>
-<section id="nicotine" class="level4">
-<h4 class="anchored" data-anchor-id="nicotine">Nicotine</h4>
-<section id="age-2" class="level5">
-<h5 class="anchored" data-anchor-id="age-2">Age</h5>
+<section id="country" class="level4">
+<h4 class="anchored" data-anchor-id="country">Country</h4>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
-<section id="gender-2" class="level5">
-<h5 class="anchored" data-anchor-id="gender-2">Gender</h5>
 </section>
-<section id="education-2" class="level5">
-<h5 class="anchored" data-anchor-id="education-2">Education</h5>
-</section>
-<section id="country-2" class="level5">
-<h5 class="anchored" data-anchor-id="country-2">Country</h5>
-</section>
-</section>
-</section>
-<section id="controversial-drugs" class="level3">
-<h3 class="anchored" data-anchor-id="controversial-drugs"><strong>Controversial</strong> Drugs</h3>
-<p>This drug (cannabis) is legal in two analyzed countries (the United States and Canada) but illegal in four others.</p>
-<section id="cannabis" class="level4">
-<h4 class="anchored" data-anchor-id="cannabis">Cannabis</h4>
-<section id="age-3" class="level5">
-<h5 class="anchored" data-anchor-id="age-3">Age</h5>
+<section id="caffeine" class="level3">
+<h3 class="anchored" data-anchor-id="caffeine">Caffeine</h3>
+<section id="age-1" class="level4">
+<h4 class="anchored" data-anchor-id="age-1">Age</h4>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
-<section id="gender-3" class="level5">
-<h5 class="anchored" data-anchor-id="gender-3">Gender</h5>
-</section>
-<section id="education-3" class="level5">
-<h5 class="anchored" data-anchor-id="education-3">Education</h5>
-</section>
-<section id="country-3" class="level5">
-<h5 class="anchored" data-anchor-id="country-3">Country</h5>
-</section>
-</section>
-</section>
-<section id="illegal-drugs" class="level3">
-<h3 class="anchored" data-anchor-id="illegal-drugs"><strong>Illegal</strong> Drugs</h3>
-<p>These two drugs (Cocaine, Heroin) are illegal across all six analyzed countries.</p>
-<section id="cocaine" class="level4">
-<h4 class="anchored" data-anchor-id="cocaine">Cocaine</h4>
-<section id="age-4" class="level5">
-<h5 class="anchored" data-anchor-id="age-4">Age</h5>
+<section id="gender-1" class="level4">
+<h4 class="anchored" data-anchor-id="gender-1">Gender</h4>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
-<section id="gender-4" class="level5">
-<h5 class="anchored" data-anchor-id="gender-4">Gender</h5>
-</section>
-<section id="education-4" class="level5">
-<h5 class="anchored" data-anchor-id="education-4">Education</h5>
-</section>
-<section id="country-4" class="level5">
-<h5 class="anchored" data-anchor-id="country-4">Country</h5>
-</section>
-</section>
-<section id="heroin" class="level4">
-<h4 class="anchored" data-anchor-id="heroin">Heroin</h4>
-<section id="age-5" class="level5">
-<h5 class="anchored" data-anchor-id="age-5">Age</h5>
+<section id="education-1" class="level4">
+<h4 class="anchored" data-anchor-id="education-1">Education</h4>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
-<section id="gender-5" class="level5">
-<h5 class="anchored" data-anchor-id="gender-5">Gender</h5>
+<section id="country-1" class="level4">
+<h4 class="anchored" data-anchor-id="country-1">Country</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
 </section>
-<section id="education-5" class="level5">
-<h5 class="anchored" data-anchor-id="education-5">Education</h5>
 </section>
-<section id="country-5" class="level5">
-<h5 class="anchored" data-anchor-id="country-5">Country</h5>
+<section id="nicotine" class="level3">
+<h3 class="anchored" data-anchor-id="nicotine">Nicotine</h3>
+<section id="age-2" class="level4">
+<h4 class="anchored" data-anchor-id="age-2">Age</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="gender-2" class="level4">
+<h4 class="anchored" data-anchor-id="gender-2">Gender</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="education-2" class="level4">
+<h4 class="anchored" data-anchor-id="education-2">Education</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="country-2" class="level4">
+<h4 class="anchored" data-anchor-id="country-2">Country</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="controversial-drugs" class="level2">
+<h2 class="anchored" data-anchor-id="controversial-drugs"><strong>Controversial</strong> Drugs</h2>
+<p>This drug (cannabis) is legal in two analyzed countries (the United States and Canada) but illegal in four others.</p>
+<section id="cannabis" class="level3">
+<h3 class="anchored" data-anchor-id="cannabis">Cannabis</h3>
+<section id="age-3" class="level4">
+<h4 class="anchored" data-anchor-id="age-3">Age</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="gender-3" class="level4">
+<h4 class="anchored" data-anchor-id="gender-3">Gender</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="education-3" class="level4">
+<h4 class="anchored" data-anchor-id="education-3">Education</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="country-3" class="level4">
+<h4 class="anchored" data-anchor-id="country-3">Country</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="illegal-drugs" class="level2">
+<h2 class="anchored" data-anchor-id="illegal-drugs"><strong>Illegal</strong> Drugs</h2>
+<p>These two drugs (Cocaine, Heroin) are illegal across all six analyzed countries.</p>
+<section id="cocaine" class="level3">
+<h3 class="anchored" data-anchor-id="cocaine">Cocaine</h3>
+<section id="age-4" class="level4">
+<h4 class="anchored" data-anchor-id="age-4">Age</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="gender-4" class="level4">
+<h4 class="anchored" data-anchor-id="gender-4">Gender</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-19-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="education-4" class="level4">
+<h4 class="anchored" data-anchor-id="education-4">Education</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="country-4" class="level4">
+<h4 class="anchored" data-anchor-id="country-4">Country</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-21-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="heroin" class="level3">
+<h3 class="anchored" data-anchor-id="heroin">Heroin</h3>
+<section id="age-5" class="level4">
+<h4 class="anchored" data-anchor-id="age-5">Age</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="gender-5" class="level4">
+<h4 class="anchored" data-anchor-id="gender-5">Gender</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-23-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="education-5" class="level4">
+<h4 class="anchored" data-anchor-id="education-5">Education</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-24-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="country-5" class="level4">
+<h4 class="anchored" data-anchor-id="country-5">Country</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Univariate_files/figure-html/unnamed-chunk-25-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
 
 
 </section>
