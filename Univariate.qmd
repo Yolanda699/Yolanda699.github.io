@@ -12,12 +12,11 @@ drug_or <- read.csv("Drug_Consumption.csv")
 drug_or <- subset(drug_or, Country != "Other")
 ```
 
-### Across Different Age Groups
+### **Legal** Drugs 
+These three drugs (alcohol, cafeeine and nocotine) are legal in all 6 analyzed countries.
 
-#### Three **Legal** Drugs Across Six Analyzed Countries
-
-##### Alcohol
-
+#### Alcohol
+##### Age
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
 
@@ -27,12 +26,19 @@ labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
 ggplot(drug, aes(x = Age, y = Alcohol)) +
   geom_violin() +
   scale_x_continuous(breaks = breaks, labels = labels) +
-  labs(x = "Age", y = "Alcohol", title = "Scatter Plot of Age vs. Alcohol")
+  labs(x = "Age", y = "Alcohol", title = "Distribution of Alcohol Consumption by Age")
+```
+
+##### Gender
+```{r, eval=TRUE, echo=FALSE,  message = FALSE}
 
 ```
 
-##### Caffeine
+##### Education
+##### Country
 
+#### Caffeine
+##### Age
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
 
@@ -42,11 +48,15 @@ labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
 ggplot(drug, aes(x = Age, y = Caff)) +
   geom_violin() +
   scale_x_continuous(breaks = breaks, labels = labels) +
-  labs(x = "Age", y = "Caffeine", title = "Scatter Plot of Age vs. Caffeine")
+  labs(x = "Age", y = "Caffeine", title = "Age vs. Caffeine")
 ```
 
-##### Nicotine
+##### Gender
+##### Education
+##### Country
 
+#### Nicotine
+##### Age
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
 
@@ -56,13 +66,18 @@ labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
 ggplot(drug, aes(x = Age, y = Nicotine)) +
   geom_violin() +
   scale_x_continuous(breaks = breaks, labels = labels) +
-  labs(x = "Age", y = "Nicotine", title = "Scatter Plot of Age vs. Nicotine")
+  labs(x = "Age", y = "Nicotine", title = "Age vs. Nicotine")
 ```
 
-#### One **Legal** Drug Across Two Analyzed Countries, but **Illegal** Across Four Others
+##### Gender
+##### Education
+##### Country
 
-##### Cannabis
+### **Controversial** Drugs
+This drug (cannabis) is legal in two analyzed countries (the United States and Canada) but illegal in four others.
 
+#### Cannabis
+##### Age
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
 
@@ -72,13 +87,18 @@ labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
 ggplot(drug, aes(x = Age, y = Cannabis)) +
   geom_violin() +
   scale_x_continuous(breaks = breaks, labels = labels) +
-  labs(x = "Age", y = "Cannabis", title = "Scatter Plot of Age vs. Cannabis")
+  labs(x = "Age", y = "Cannabis", title = "Age vs. Cannabis")
 ```
 
-#### Two **Illegal** Drugs Across Six Analyzed Countries
+##### Gender
+##### Education
+##### Country
 
-##### Cocaine
+### **Illegal** Drugs 
+These two drugs (Cocaine, Heroin) are illegal across all six analyzed countries.
 
+#### Cocaine
+##### Age
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
 
@@ -88,11 +108,14 @@ labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
 ggplot(drug, aes(x = Age, y = Coke)) +
   geom_violin() +
   scale_x_continuous(breaks = breaks, labels = labels) +
-  labs(x = "Age", y = "Cocaine", title = "Scatter Plot of Age vs. Cocaine")
+  labs(x = "Age", y = "Cocaine", title = "Age vs. Cocaine")
 ```
+##### Gender
+##### Education
+##### Country
 
-##### Heroin
-
+#### Heroin
+##### Age
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
 
@@ -102,5 +125,9 @@ labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
 ggplot(drug, aes(x = Age, y = Heroin)) +
   geom_violin() +
   scale_x_continuous(breaks = breaks, labels = labels) +
-  labs(x = "Age", y = "Heroin", title = "Scatter Plot of Age vs. Heroin")
+  labs(x = "Age", y = "Heroin", title = "Age vs. Heroin")
 ```
+
+##### Gender
+##### Education
+##### Country
