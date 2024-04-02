@@ -1,5 +1,5 @@
 ---
-title: "<span style='font-size: 30px;'>Univariate Analysis</span><span style='font-size: 20px; color:gray;'> [Demographic Characteristics] </span>"
+title: "<span style='font-size: 30px;'>Demographic Characteristics</span><span style='font-size: 20px; color:gray;'> [Univariate Analysis] </span>"
 ---
 
 [How does each demographic characteristic affect the drug consumption patterns?]{style="background-color:#fdfd96;"}

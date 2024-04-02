@@ -1,5 +1,5 @@
 ---
-title: "<span style='font-size: 30px;'> Box Plot Chart Analysis </span> <span style='font-size: 20px; color:gray;'>[Psychological Traits] </span>"
+title: "<span style='font-size: 30px;'> Psychological Traits </span> <span style='font-size: 20px; color:gray;'>[Box Plot Analysis] </span>"
 ---
 [How does personality affect the drug consumption patterns?]{style="background-color:#fdfd96;"}
 
@@ -18,7 +18,7 @@ These three drugs (alcohol, cafeeine and nocotine) are legal in all 6 analyzed c
 
 ### Alcohol
 
-#### AScore
+#### A Score
 
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
@@ -36,7 +36,7 @@ ggplot(drug_or, aes(x = factor(Alcohol), y = AScore)) +
   annotate("text", x = 1:7, y = min(drug_or$AScore) - 1, label = paste("μ =", round(mean_values$AScore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### CScore
+#### C Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -53,7 +53,7 @@ ggplot(drug_or, aes(x = factor(Alcohol), y = Cscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Cscore) - 1, label = paste("μ =", round(mean_values$Cscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### EScore
+#### E Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -70,7 +70,7 @@ ggplot(drug_or, aes(x = factor(Alcohol), y = Escore)) +
   annotate("text", x = 1:7, y = min(drug_or$Escore) - 1, label = paste("μ =", round(mean_values$Escore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### NScore
+#### N Score
 
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
@@ -88,7 +88,7 @@ ggplot(drug_or, aes(x = factor(Alcohol), y = Nscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Nscore) - 1, label = paste("μ =", round(mean_values$Nscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### OScore
+#### O Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -107,7 +107,7 @@ ggplot(drug_or, aes(x = factor(Alcohol), y = Oscore)) +
 
 ### Caffeine
 
-#### AScore
+#### A Score
 
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
@@ -125,7 +125,7 @@ ggplot(drug_or, aes(x = factor(Caff), y = AScore)) +
   annotate("text", x = 1:7, y = min(drug_or$AScore) - 1, label = paste("μ =", round(mean_values$AScore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### CScore
+#### C Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -142,7 +142,7 @@ ggplot(drug_or, aes(x = factor(Caff), y = Cscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Cscore) - 1, label = paste("μ =", round(mean_values$Cscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### EScore
+#### E Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -159,7 +159,7 @@ ggplot(drug_or, aes(x = factor(Caff), y = Escore)) +
   annotate("text", x = 1:7, y = min(drug_or$Escore) - 1, label = paste("μ =", round(mean_values$Escore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### NScore
+#### N Score
 
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
@@ -177,7 +177,7 @@ ggplot(drug_or, aes(x = factor(Caff), y = Nscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Nscore) - 1, label = paste("μ =", round(mean_values$Nscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### OScore
+#### O Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -195,7 +195,7 @@ ggplot(drug_or, aes(x = factor(Caff), y = Oscore)) +
 ```
 
 ### Nicotine
-#### AScore
+#### A Score
 
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
@@ -213,7 +213,7 @@ ggplot(drug_or, aes(x = factor(Nicotine), y = AScore)) +
   annotate("text", x = 1:7, y = min(drug_or$AScore) - 1, label = paste("μ =", round(mean_values$AScore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### CScore
+#### C Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -230,7 +230,7 @@ ggplot(drug_or, aes(x = factor(Nicotine), y = Cscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Cscore) - 1, label = paste("μ =", round(mean_values$Cscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### EScore
+#### E Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -247,7 +247,7 @@ ggplot(drug_or, aes(x = factor(Nicotine), y = Escore)) +
   annotate("text", x = 1:7, y = min(drug_or$Escore) - 1, label = paste("μ =", round(mean_values$Escore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### NScore
+#### N Score
 
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
@@ -265,7 +265,7 @@ ggplot(drug_or, aes(x = factor(Nicotine), y = Nscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Nscore) - 1, label = paste("μ =", round(mean_values$Nscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### OScore
+#### O Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -286,7 +286,25 @@ ggplot(drug_or, aes(x = factor(Nicotine), y = Oscore)) +
 This drug (cannabis) is legal in two analyzed countries (the United States and Canada) but illegal in four others.
 
 ### Cannabis
-#### CScore
+#### A Score
+
+```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+
+mean_values <- aggregate(AScore ~ Cannabis, data = drug_or, FUN = mean)
+
+ggplot(drug_or, aes(x = factor(Cannabis), y = AScore)) +
+  geom_boxplot() +
+  labs(x = "Cannabis", y = "AScore") +
+  ggtitle("Box Plot of AScore by Cannabis Consumption Level") +
+  theme(panel.border = element_rect(color = "black", fill = NA), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank()) +
+  annotate("segment", x = 1:7, xend = 1:7, y = quantile(drug_or$AScore, 0.5), yend = quantile(drug_or$AScore, 0.5), color = "black", size = 1.2) +
+  annotate("text", x = 1:7, y = min(drug_or$AScore) - 1, label = paste("μ =", round(mean_values$AScore, 2)), vjust = 0, hjust = 0.5)
+```
+
+#### C Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -303,7 +321,7 @@ ggplot(drug_or, aes(x = factor(Cannabis), y = Cscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Cscore) - 1, label = paste("μ =", round(mean_values$Cscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### EScore
+#### E Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -320,7 +338,7 @@ ggplot(drug_or, aes(x = factor(Cannabis), y = Escore)) +
   annotate("text", x = 1:7, y = min(drug_or$Escore) - 1, label = paste("μ =", round(mean_values$Escore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### NScore
+#### N Score
 
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
@@ -338,7 +356,7 @@ ggplot(drug_or, aes(x = factor(Cannabis), y = Nscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Nscore) - 1, label = paste("μ =", round(mean_values$Nscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### OScore
+#### O Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -360,7 +378,25 @@ ggplot(drug_or, aes(x = factor(Cannabis), y = Oscore)) +
 These two drugs (Cocaine, Heroin) are illegal across all six analyzed countries.
 
 ### Cocaine
-#### CScore
+#### A Score
+
+```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+
+mean_values <- aggregate(AScore ~ Coke, data = drug_or, FUN = mean)
+
+ggplot(drug_or, aes(x = factor(Coke), y = AScore)) +
+  geom_boxplot() +
+  labs(x = "Cocaine", y = "AScore") +
+  ggtitle("Box Plot of AScore by Cocaine Consumption Level") +
+  theme(panel.border = element_rect(color = "black", fill = NA), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank()) +
+  annotate("segment", x = 1:7, xend = 1:7, y = quantile(drug_or$AScore, 0.5), yend = quantile(drug_or$AScore, 0.5), color = "black", size = 1.2) +
+  annotate("text", x = 1:7, y = min(drug_or$AScore) - 1, label = paste("μ =", round(mean_values$AScore, 2)), vjust = 0, hjust = 0.5)
+```
+
+#### C Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -377,7 +413,7 @@ ggplot(drug_or, aes(x = factor(Coke), y = Cscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Cscore) - 1, label = paste("μ =", round(mean_values$Cscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### EScore
+#### E Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -394,7 +430,7 @@ ggplot(drug_or, aes(x = factor(Coke), y = Escore)) +
   annotate("text", x = 1:7, y = min(drug_or$Escore) - 1, label = paste("μ =", round(mean_values$Escore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### NScore
+#### N Score
 
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
@@ -412,7 +448,7 @@ ggplot(drug_or, aes(x = factor(Coke), y = Nscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Nscore) - 1, label = paste("μ =", round(mean_values$Nscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### OScore
+#### O Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -430,7 +466,25 @@ ggplot(drug_or, aes(x = factor(Coke), y = Oscore)) +
 ```
 
 ### Heroin
-#### CScore
+#### A Score
+
+```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+
+mean_values <- aggregate(AScore ~ Heroin, data = drug_or, FUN = mean)
+
+ggplot(drug_or, aes(x = factor(Heroin), y = AScore)) +
+  geom_boxplot() +
+  labs(x = "Heroin", y = "AScore") +
+  ggtitle("Box Plot of AScore by Heroin Consumption Level") +
+  theme(panel.border = element_rect(color = "black", fill = NA), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank()) +
+  annotate("segment", x = 1:7, xend = 1:7, y = quantile(drug_or$AScore, 0.5), yend = quantile(drug_or$AScore, 0.5), color = "black", size = 1.2) +
+  annotate("text", x = 1:7, y = min(drug_or$AScore) - 1, label = paste("μ =", round(mean_values$AScore, 2)), vjust = 0, hjust = 0.5)
+```
+
+#### C Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -447,7 +501,7 @@ ggplot(drug_or, aes(x = factor(Heroin), y = Cscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Cscore) - 1, label = paste("μ =", round(mean_values$Cscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### EScore
+#### E Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 
@@ -464,7 +518,7 @@ ggplot(drug_or, aes(x = factor(Heroin), y = Escore)) +
   annotate("text", x = 1:7, y = min(drug_or$Escore) - 1, label = paste("μ =", round(mean_values$Escore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### NScore
+#### N Score
 
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
@@ -482,7 +536,7 @@ ggplot(drug_or, aes(x = factor(Heroin), y = Nscore)) +
   annotate("text", x = 1:7, y = min(drug_or$Nscore) - 1, label = paste("μ =", round(mean_values$Nscore, 2)), vjust = 0, hjust = 0.5)
 ```
 
-#### OScore
+#### O Score
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(ggplot2)
 

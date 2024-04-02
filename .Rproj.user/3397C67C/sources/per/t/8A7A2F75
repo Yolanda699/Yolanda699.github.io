@@ -1,14 +1,14 @@
 {
-    "id": "479059D3",
-    "path": "~/Desktop/NUS/NUS Y2S2/NM2207/NM2207 Project/Yolanda699.github.io/Personality.qmd",
-    "project_path": "Personality.qmd",
+    "id": "8A7A2F75",
+    "path": "~/Desktop/NUS/NUS Y2S2/NM2207/NM2207 Project/Yolanda699.github.io/Univariate.qmd",
+    "project_path": "Univariate.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "3880066630",
     "contents": "",
     "dirty": false,
-    "created": 1712047727725.0,
+    "created": 1712048963726.0,
     "source_on_save": false,
-    "relative_order": 9,
+    "relative_order": 10,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "3,60",
+        "cursorPosition": "1,66",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "118:0"
+        "rmdVisualModeLocation": "2:114"
     },
     "folds": "",
-    "lastKnownWriteTime": 1712058056,
+    "lastKnownWriteTime": 1712059183,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1712058056818,
+    "last_content_update": 1712059183034,
     "read_only": false,
     "read_only_alternatives": []
 }

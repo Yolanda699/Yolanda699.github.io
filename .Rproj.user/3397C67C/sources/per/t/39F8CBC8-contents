@@ -14,9 +14,9 @@ website:
             href: ResearchQuestion.qmd
       - text: Data Analysis
         menu: 
-          - text: (Demographic Characteristics) Univariate Analysis
+          - text: Demographic Characteristics
             href: Univariate.qmd
-          - text: (Psychological Traits) Box Plot Analysis
+          - text: Psychological Traits
             href: Personality.qmd
       - text: Conclusion
         href: Conclusion.qmd
