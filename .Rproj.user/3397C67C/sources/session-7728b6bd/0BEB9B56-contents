@@ -1,6 +1,7 @@
 ---
 title: "<span style='font-size: 30px;'>Univariate Analysis</span><span style='font-size: 20px; color:gray;'> [Demographic Characteristics] </span>"
 ---
+<span style='background-color:#fdfd96;'>How does each demographic characteristic affect the drug consumption patterns?</span>
 
 [This univariate analysis page will feature an analysis of four key demographic factors: ***Age, Gender, Education Level, and Country***. The aim is to elucidate their relationship with drug consumption patterns.]{style="font-size: 12pt; color: gray;"}
 
@@ -11,7 +12,7 @@ drug_or <- read.csv("Drug_Consumption.csv")
 drug_or <- subset(drug_or, Country != "Other")
 ```
 
-### Exploring Drug Consumption Patterns Across Different Age Groups
+### Across Different Age Groups
 
 #### Three **Legal** Drugs Across Six Analyzed Countries
 
@@ -19,17 +20,28 @@ drug_or <- subset(drug_or, Country != "Other")
 
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
+
+breaks <- c(-0.95197, -0.07854, 0.49788, 1.09449, 1.82213, 2.59171)
+labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
+
 ggplot(drug, aes(x = Age, y = Alcohol)) +
   geom_violin() +
+  scale_x_continuous(breaks = breaks, labels = labels) +
   labs(x = "Age", y = "Alcohol", title = "Scatter Plot of Age vs. Alcohol")
+
 ```
 
 ##### Caffeine
 
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
+
+breaks <- c(-0.95197, -0.07854, 0.49788, 1.09449, 1.82213, 2.59171)
+labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
+
 ggplot(drug, aes(x = Age, y = Caff)) +
   geom_violin() +
+  scale_x_continuous(breaks = breaks, labels = labels) +
   labs(x = "Age", y = "Caffeine", title = "Scatter Plot of Age vs. Caffeine")
 ```
 
@@ -37,8 +49,13 @@ ggplot(drug, aes(x = Age, y = Caff)) +
 
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
+
+breaks <- c(-0.95197, -0.07854, 0.49788, 1.09449, 1.82213, 2.59171)
+labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
+
 ggplot(drug, aes(x = Age, y = Nicotine)) +
   geom_violin() +
+  scale_x_continuous(breaks = breaks, labels = labels) +
   labs(x = "Age", y = "Nicotine", title = "Scatter Plot of Age vs. Nicotine")
 ```
 
@@ -48,27 +65,42 @@ ggplot(drug, aes(x = Age, y = Nicotine)) +
 
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
+
+breaks <- c(-0.95197, -0.07854, 0.49788, 1.09449, 1.82213, 2.59171)
+labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
+
 ggplot(drug, aes(x = Age, y = Cannabis)) +
   geom_violin() +
+  scale_x_continuous(breaks = breaks, labels = labels) +
   labs(x = "Age", y = "Cannabis", title = "Scatter Plot of Age vs. Cannabis")
 ```
 
 #### Two **Illegal** Drugs Across Six Analyzed Countries
 
-#### Cocaine
+##### Cocaine
 
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
+
+breaks <- c(-0.95197, -0.07854, 0.49788, 1.09449, 1.82213, 2.59171)
+labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
+
 ggplot(drug, aes(x = Age, y = Coke)) +
   geom_violin() +
+  scale_x_continuous(breaks = breaks, labels = labels) +
   labs(x = "Age", y = "Cocaine", title = "Scatter Plot of Age vs. Cocaine")
 ```
 
-#### Heroin
+##### Heroin
 
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
+
+breaks <- c(-0.95197, -0.07854, 0.49788, 1.09449, 1.82213, 2.59171)
+labels <- c("18-24", "25-34", "35-44", "45-54", "55-64", "65+")
+
 ggplot(drug, aes(x = Age, y = Heroin)) +
   geom_violin() +
+  scale_x_continuous(breaks = breaks, labels = labels) +
   labs(x = "Age", y = "Heroin", title = "Scatter Plot of Age vs. Heroin")
 ```
