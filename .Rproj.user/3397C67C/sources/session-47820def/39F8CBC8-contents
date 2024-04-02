@@ -16,9 +16,7 @@ website:
         menu: 
           - text: (Demographic Characteristics) Univariate Analysis
             href: Univariate.qmd
-          - text: (Demographic Characteristics) Multivariate Analysis
-            href: Multivariate.qmd
-          - text: (Psychological Traits) Radar Chart Analysis
+          - text: (Psychological Traits) Box Plot Analysis
             href: Personality.qmd
       - text: Conclusion
         href: Conclusion.qmd
