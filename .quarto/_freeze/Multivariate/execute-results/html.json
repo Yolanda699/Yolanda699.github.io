@@ -1,0 +1,14 @@
+{
+  "hash": "be8544bd3cc30fc51646505087f1c01d",
+  "result": {
+    "markdown": "---\ntitle: \"<span style='font-size: 30px;'>Multivariate Analysis </span> <span style='font-size: 20px; color:gray;'> [Demographic Characteristics] </span>\"\n---\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
