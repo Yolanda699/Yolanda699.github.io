@@ -1,14 +1,14 @@
 {
-    "id": "8C0ECFED",
-    "path": "~/Desktop/NUS/NUS Y2S2/NM2207/NM2207 Project/Yolanda699.github.io/Univariate.qmd",
-    "project_path": "Univariate.qmd",
+    "id": "13CBDABF",
+    "path": "~/Desktop/NUS/NUS Y2S2/NM2207/NM2207 Project/Yolanda699.github.io/Conclusion.qmd",
+    "project_path": "Conclusion.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "916968458",
     "contents": "",
     "dirty": false,
-    "created": 1712387671310.0,
+    "created": 1712058758192.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 8,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "669,61",
-        "scrollLine": "660",
-        "rmdVisualModeLocation": "6718:2842"
+        "rmdVisualModeLocation": "187:0",
+        "cursorPosition": "8,101",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1712500682,
+    "lastKnownWriteTime": 1712058972,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1712500682946,
+    "last_content_update": 1712058972679,
     "read_only": false,
     "read_only_alternatives": []
 }

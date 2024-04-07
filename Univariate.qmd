@@ -27,7 +27,7 @@ The majority of participants consume alcohol with some regularity, with monthly 
 
 **Minor difference caused by educational background:** The data suggests that alcohol consumption patterns, especially at higher consumption levels (such as CL4 and CL5), do not differ significantly across different educational levels. 
 
-**Minor difference caused by country:** Alcohol consumption is a widespread phenomenon with similar levels of engagement across the countries surveyed, pointing to the absence of notable distinctions in alcohol consumption habits based on country.
+**Differences seen in more recent consumption:** There is a consistent pattern of alcohol non-consumption to distant past consumption (CL0 to CL2) across the six compared countries. However, when examining more recent alcohol consumption (CL3 to CL6), distinct differences between countries emerge. Specifically, New Zealand, Canada, and the Republic of Ireland exhibit higher frequencies of drinking.
 
 #### Age
 
@@ -107,6 +107,7 @@ ggplot(education_alcohol_counts, aes(x = Education, y = percentage, fill = Alcoh
 ```
 
 #### Country
+The percentages of individuals abstaining from alcohol consumption (CL0) to those who consumed this decade (CL2) exhibit comparable trends across six countries. However, notable disparities emerge among those consuming alcohol within the recent year (CL3) up to consumption within the last day (CL6). New Zealand stands out for a higher prevalence of alcohol consumption this year or last day, while Canada exhibits a higher frequency of consumption within the month, and the Republic of Ireland sees more individuals consuming within the week.
 
 ```{r, eval=TRUE, echo=FALSE, warning=FALSE, message=FALSE}
 library(ggplot2)
