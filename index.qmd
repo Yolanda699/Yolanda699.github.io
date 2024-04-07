@@ -36,6 +36,8 @@ The data source I have curated is the **Drug Consumption** dataset provided by U
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://yolanda699.shinyapps.io/app0/"> </iframe>
 ```
+[After filtering out entries that do not specify nationality, the dataframe comprises 1766 participants.]{style="font-size: 12pt; color: gray;"}
+
 ## Why Website
 
 Website serves as an accessible platform for disseminating information to a broad audience, aligning with the expansive reach of the "Say No to Drugs" goal in this project.

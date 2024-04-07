@@ -170,16 +170,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p><span style="background-color:#fdfd96;">How does each demographic characteristic affect the drug consumption patterns?</span></p>
-<p><span style="font-size: 12pt; color: gray;">This univariate analysis page will feature an analysis of four key demographic factors: <strong><em>Age, Gender, Education Level, and Country</em></strong>. The aim is to elucidate their relationship with drug consumption patterns.<br><br> <strong>For reference:</strong> CL0 indicating ‘never used’, CL1 representing ‘used over a decade ago’, CL2 indicating ‘used in the last decade’, CL3 indicating ‘used in the last year’, CL4 representing ‘used in the last month’, CL5 indicating ‘used in the last week’, and CL6 representing ‘used in the last day’.</span></p>
+<p><span style="font-size: 12pt; color: gray;">This univariate analysis page will feature an analysis of four key demographic factors: <strong><em>Age, Gender, Education Level, and Country</em></strong>. The aim is to elucidate their relationship with drug consumption patterns.<br><br> <strong>For reference:</strong> CL0 indicating ‘never used’, CL1 representing ‘used over a decade ago’, CL2 indicating ‘used in the last decade’, CL3 indicating ‘used in the last year’, CL4 representing ‘used in the last month’, CL5 indicating ‘used in the last week’, and CL6 representing ‘used in the last day’. <br><br> <strong>Note:</strong> This dataset contains 1766 participants, with 905 females and 861 males.</span></p>
 <section id="legal-drugs" class="level2">
 <h2 class="anchored" data-anchor-id="legal-drugs"><strong>Legal</strong> Drugs</h2>
 <p>These three drugs (alcohol, cafeeine and nocotine) are legal in all 6 analyzed countries.</p>
 <section id="alcohol" class="level3">
 <h3 class="anchored" data-anchor-id="alcohol">Alcohol</h3>
-<p><strong>Younger people consumes more:</strong> The general trend indicates that younger individuals are more likely to have engaged in alcohol consumption more recently, while older age groups show a higher frequency of alcohol consumption in the more distant past, with a notable decline in recent consumption as age progresses.</p>
+<p>The majority of participants consume alcohol with some regularity, with monthly (CL4), weekly (CL5), or daily (CL6) consumption being the most reported.</p>
+<p><strong>Younger people consume more:</strong> Younger individuals are more likely to have engaged in alcohol consumption more recently, while older age groups show a higher frequency of alcohol consumption in the more distant past, with a notable decline in recent consumption as age progresses.</p>
 <p><strong>Minor gender difference:</strong> While overall gender differences in alcohol consumption appear minimal, there are specific points of divergence. Despite these variations, both genders display a similar pattern of alcohol consumption, with the majority having consumed alcohol at some stage and only a small proportion never having consumed alcohol at all.</p>
-<p><strong>Higher educational level might bring more consumption:</strong> The relationship between education and alcohol consumption is not strongly marked at the lower consumption levels or distant past (CL0 to CL3). Still, a trend emerges at the higher levels of recent alcohol use (CL4 to CL6), where individuals with higher education, such as university graduates, show a tendency towards more frequent alcohol consumption. This could suggest that social or lifestyle factors associated with higher educational environments may influence alcohol consumption habits, leading to more frequent use among these individuals.</p>
-<p><strong>Different countries have different level of consumption:</strong> Australia stands out with higher frequencies of recent alcohol use, especially in the last week and last day. The Republic of Ireland has a noticeably high number of individuals who have never consumed alcohol, and overall, there is a trend of low alcohol use for periods extending beyond the last year. This suggests cultural, societal, or policy influences may be shaping alcohol consumption behaviors in these countries.</p>
+<p><strong>Higher educational level might bring more consumption:</strong> The relationship between education and alcohol consumption is not strongly marked at the lower consumption levels or distant past (CL0 to CL3). Still, a trend emerges at the higher levels of recent alcohol use (CL4 to CL6), where individuals with higher education, such as university graduates, show a tendency towards more frequent alcohol consumption. Higher education may influence alcohol consumption habits, leading to more frequent use among these individuals.</p>
+<p><strong>Minor country difference:</strong> Alcohol consumption is a widespread phenomenon with similar levels of engagement across the countries surveyed, pointing to the absence of notable distinctions in alcohol consumption habits based on country.</p>
 <section id="age" class="level4">
 <h4 class="anchored" data-anchor-id="age">Age</h4>
 <p>There is an observable overall decline in alcohol consumption as age increases. The proportion of individuals who have never consumed alcohol (CL0) diminishes with advancing age. The peak occurrence for those who last consumed alcohol over a decade ago (CL1) is found within the 45-54 age bracket. The age group most likely to have consumed alcohol in the last decade (CL2) is 35-44. For more recent consumption categories—consumed in the last year (CL3), last month (CL4), last week (CL5), and last day (CL6)—the majority are in the youngest age group, 18-24.</p>
@@ -191,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="gender" class="level4">
 <h4 class="anchored" data-anchor-id="gender">Gender</h4>
-<p>Initially, a minority of individuals report never consuming alcohol (CL0), indicating widespread alcohol use. As we move through categories such as ‘used over a decade ago’ (CL1) and ‘used in the last decade’ (CL2), there is a gradual but modest increase in consumption, with overall figures remaining relatively low. However, at ‘used in the last year’ (CL3), a significant surge is observed in male consumption, suggesting a higher recent intake compared to females. Interestingly, this trend reverses at ‘used in the last month’ (CL4), where females show a higher count, reaching their peak at ‘used in the last week’ (CL5). Conversely, at the highest frequency category, ‘used in the last day’ (CL6), males exhibit a substantial increase, surpassing females, indicating a higher prevalence of daily alcohol consumption among males.</p>
+<p>A smaller portion of the surveyed population, 16.68% of females and 19.05% of males, includes individuals who have never consumed alcohol (CL0) or those who last consumed alcohol up to a year ago (CL3). The overall data suggests that the difference in alcohol consumption patterns between genders is negligible. The largest observed difference is in the weekly consumption category (CL5), where 42.98% of females and 37.51% of males reported consumption, yet this difference is not considered significant.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
@@ -200,7 +201,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="education" class="level4">
 <h4 class="anchored" data-anchor-id="education">Education</h4>
-<p>Across all educational levels, individuals who have never consumed alcohol (CL0) exhibit generally low counts, with no particular group standing out significantly. Similarly, at the ‘used over a decade ago’ (CL1) level, counts remain low and evenly distributed among educational achievements. However, there’s a slight increase in counts at ‘used in the last decade’ (CL2), particularly among those with some college or university education but no certificate or degree. As we progress to ‘used in the last year’ (CL3), there’s a more pronounced rise in counts, especially among individuals with some college or university education. The trend becomes more varied at ‘used in the last month’ (CL4), where the highest counts are observed in individuals with some college or university education, followed by those with a university degree. Notably, at the ‘used in the last week’ (CL5) and ‘used in the last day’ (CL6) levels, significant counts are observed among individuals with a university degree, indicating a higher frequency of alcohol consumption within these timeframes, particularly among this educational group. Additionally, while individuals with some college education or above tend to consume more alcohol overall, it’s worth noting that doctorate degree holders may consume slightly less than those in other stages of higher education, albeit still higher than those with lower education levels.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
@@ -209,7 +209,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="country" class="level4">
 <h4 class="anchored" data-anchor-id="country">Country</h4>
-<p>Notably, the Republic of Ireland, along with the UK and Australia, stands out with the highest number of individuals who have never consumed alcohol (CL0). For those who used alcohol over a decade ago (CL1) and in the last decade (CL2), the counts are generally low across all countries. However, Australia emerges with the highest count in the ‘used in the last year’ category (CL3), followed by the US, while other countries exhibit lower figures. Moving to the ‘used in the last month’ category (CL4), the USA shows high counts, with Australia also recording a significant number of individuals. In the ‘used in the last week’ (CL5) and ‘used in the last day’ (CL6) categories, Australia leads again, indicating a higher frequency of recent alcohol consumption compared to the other countries, while the count among individuals from the USA dramatically drops.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
@@ -219,8 +218,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="caffeine" class="level3">
 <h3 class="anchored" data-anchor-id="caffeine">Caffeine</h3>
+<p><strong>Younger people consume more:</strong> Younger adults exhibiting more frequent usage. This trend suggests that caffeine consumption may decrease as individuals age, particularly after passing the 55-year mark.</p>
+<p><strong>Minor gender difference:</strong> Both males and females exhibit similar patterns of caffeine consumption, with both genders showing a high level of caffeine intake. There is no significant gender difference influencing the frequency of caffeine consumption.</p>
 <section id="age-1" class="level4">
 <h4 class="anchored" data-anchor-id="age-1">Age</h4>
+<p>The data suggests that weekly (CL5) and daily (CL6) caffeine consumption is predominantly observed in the younger age brackets, specifically those aged 18-24 and 25-34. There is a noticeable decline in caffeine consumption among individuals in the 55-64 age group. Furthermore, the peak of caffeine consumption ‘over a decade ago’ (CL1) is most evident in the 35-44 age category, which aligns with the finding that caffeine consumption is most prevalent among those currently in the 18-24 and 25-34 age groups.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
@@ -229,6 +231,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="gender-1" class="level4">
 <h4 class="anchored" data-anchor-id="gender-1">Gender</h4>
+<p>The majority of surveyed individuals consume caffeine either on a daily basis (CL6), with 24.64% female and 29.15% male respondents, or on a weekly basis (CL5), with 42.98% females and 37.51% males. However, the gender difference in caffeine consumption frequency is not significantly pronounced.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="Univariate_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
