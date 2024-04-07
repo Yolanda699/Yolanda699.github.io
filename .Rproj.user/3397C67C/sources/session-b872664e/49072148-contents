@@ -1,4 +1,0 @@
-summary_data <- drug %>%
-  mutate(CL_count = rowSums(select(., starts_with("CL")))) %>%
-  group_by(Education) %>%
-  mutate(CL_prop = CL_count / sum(CL_count))

@@ -1,0 +1,26 @@
+library(ggplot2)
+library(dplyr)
+
+country_alcohol_counts <- drug_or %>%
+  group_by(Country, Alcohol) %>%
+  summarise(count = n(), .groups = 'drop') %>%
+  group_by(Country) %>%
+  mutate(percentage = count / sum(count) * 100)
+
+country_alcohol_counts$Country <- factor(country_alcohol_counts$Country)
+
+custom_colours <- c("#aed0ee", "#a3bbdb", "#88abda", "#8aabcc", "#6f94cd", "#5976ba", "#106898", "#12507b", "#003460")
+
+ggplot(country_alcohol_counts, aes(x = Country, y = percentage, color = Alcohol, group = Alcohol)) +
+  geom_line() +
+  geom_point() +
+  scale_color_manual(values = custom_colours, name = "Consumption Level") +
+  theme_minimal() +
+  theme(
+    legend.position = "right",
+    axis.text.x = element_text(angle = 45, hjust = 1)  # Rotate x-axis labels for better readability
+  ) +
+  labs(title = "Country and Alcohol Consumption",
+       x = "Countries of origin",
+       y = "Percentage",
+       color = "Consumption Level")
