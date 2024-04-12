@@ -4,7 +4,7 @@ title: "<span style='font-size: 30px;'> Psychological Traits </span> <span style
 
 [How does personality affect the drug consumption patterns?]{style="background-color:#fdfd96;"}
 
-[This page will present a box plot analysis examining the influence of scores obtained in five personality factors from the NEO-FFI-R questionnaire on patterns of drug consumption. The analyzed factors include **Agreeableness (A Score), Conscientiousness (C Score), Extraversion (E Score), Neuroticism (N Score), and Openness to Experience (O Score)**. A higher score indicates a greater likelihood of experiencing specific feelings within each respective category.]{style="font-size: 12pt; color: gray;"}
+[This page will present a box plot analysis examining the influence of scores obtained in five personality factors from the NEO-FFI-R questionnaire on patterns of drug consumption. The analyzed personality factors include ]{style="font-size: 12pt; color: gray;"}[**Agreeableness (A Score), Conscientiousness (C Score), Extraversion (E Score), Neuroticism (N Score), and Openness to Experience (O Score)**]{style="font-size: 12pt; color: gray;"}[. A higher score indicates a greater likelihood of experiencing specific feelings within each respective category.]{style="font-size: 12pt; color: gray;"}
 
 ```{r, eval=TRUE, echo=FALSE}
 drug <- read.csv("Drug_Consumption_Quantified.csv")

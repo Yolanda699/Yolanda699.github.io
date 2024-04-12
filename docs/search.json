@@ -144,7 +144,7 @@
     "href": "Personality.html",
     "title": " Psychological Traits  [Box Plot Analysis] ",
     "section": "",
-    "text": "How does personality affect the drug consumption patterns?\nThis page will present a box plot analysis examining the influence of scores obtained in five personality factors from the NEO-FFI-R questionnaire on patterns of drug consumption. The analyzed factors include Neuroticism (N Score), Extraversion (E Score), Openness to Experience (O Score), Agreeableness (A Score), and Conscientiousness (C Score). A higher score indicates a greater likelihood of experiencing specific feelings within each respective category."
+    "text": "How does personality affect the drug consumption patterns?\nThis page will present a box plot analysis examining the influence of scores obtained in five personality factors from the NEO-FFI-R questionnaire on patterns of drug consumption. The analyzed personality factors includeAgreeableness (A Score), Conscientiousness (C Score), Extraversion (E Score), Neuroticism (N Score), and Openness to Experience (O Score). A higher score indicates a greater likelihood of experiencing specific feelings within each respective category."
   },
   {
     "objectID": "Univariate.html#legal-drugs",
