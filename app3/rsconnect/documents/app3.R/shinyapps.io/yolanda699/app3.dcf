@@ -1,0 +1,12 @@
+name: app3
+title: app3
+username: yolanda699
+account: yolanda699
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11795052
+bundleId: 8509382
+url: https://yolanda699.shinyapps.io/app3/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
